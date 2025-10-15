@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <span>PhD Student @ <a href="https://opennlg.cn/" target="_blank" rel="noopener noreferrer">OpenNLG Group</a> · Member @ <a href="https://github.com/LCM-Lab/" target="_blank" rel="noopener noreferrer">LCM-Lab</a></span>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hzy.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style="color: #999; font-style: italic;">Fall Down Seven Times, </p>
+    <p style="color: #999; font-style: italic;">Stand Up Eight.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +21,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Zhiyi Hong (洪知易), a 0-year Ph.D. student at the Institute of Artificial Intelligence, Soochow University, advised by [Assoc. Prof. Juntao Li](https://lijuntaopku.github.io/) and [Prof. Min Zhang](https://lijuntaopku.github.io/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in **Long Context Modeling**, including but not limited to Efficient Long-Context LLM Inference and Sparse Training.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+See [publications](/publications) and [cv](/cv) for more information.
