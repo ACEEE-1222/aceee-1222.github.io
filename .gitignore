@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Local documentation (not for GitHub)
+CLAUDE.md
+PROGRESS.md
