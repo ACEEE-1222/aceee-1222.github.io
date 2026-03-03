@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "For full details, please download the PDF.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -391,7 +391,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
+            },},{id: "news-our-work-elastic-attention-test-time-adaptive-sparsity-ratios-for-efficient-transformers-is-now-available-on-arxiv",
+          title: 'Our work Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers is now...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -455,7 +458,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=8y0rHdMAAAAJ", "_blank");
         },
       },{
         id: 'social-zhihu',
