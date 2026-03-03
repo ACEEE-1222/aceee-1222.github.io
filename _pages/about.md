@@ -13,6 +13,7 @@ profile:
     <p style="color: #999; font-style: italic;">Stand Up Eight.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+education: true # includes education section on the home page
 social: true # includes social icons at the bottom of the page
 
 announcements:

@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Education -->
+    {% if page.education %}
+      <h2>
+        <a href="{{ '/cv/' | relative_url }}" style="color: inherit">education</a>
+      </h2>
+      {% include education.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
